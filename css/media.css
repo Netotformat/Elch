@@ -1,5 +1,7 @@
 @media (max-width: 1230px) {
 
+    
+
     .data__main-text {
        
         margin-bottom: 41px;
@@ -66,6 +68,12 @@
     .reviews__items-card {
         margin: 0;
         padding: 27px 50px;
+    }
+
+    .reviews__items__text-par {
+     
+        font-size: 15px;
+      
     }
 
 }
@@ -195,6 +203,8 @@
 
 @media (max-width: 885px) {
 
+    
+
     .header__menu-nav {
         margin: 0;
         padding: 26px 0;
@@ -305,6 +315,13 @@
     }
 
     .data__main__form-input{
+        font-size: 18px;
+        line-height: 18px;
+        padding: 19px 45px;
+        margin-bottom: 22px;
+    }
+    .data__main__form-input-tel
+    {
         font-size: 18px;
         line-height: 18px;
         padding: 19px 45px;
@@ -616,11 +633,46 @@
         .reviews__items:nth-child(odd) {
             margin-right: 64px;
         }
+
+        .data__main-images {
+            background-position: -9px -2px, 63px 91px;
+        }
+        .reviews__items__text-par {
+            font-size: 12px;
+        }
+        .reviews__items__text-title {
+            line-height: 18px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
     }
 
 
 
 @media (max-width: 600px) {
+
+
+
+
+    .slider .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-top: 41px;
+        padding: 0;
+    }
+
+    .slider .slick-dots button {
+        font-size: 0;
+        width: 34px;
+        height: 11px;
+        background: rgba(255, 255, 255, 0.44);
+        border: none;
+        border-radius: 15px;
+        margin-right: 7px;
+    }
 
     button.btn-reset.burger {
         margin-bottom: 38px;
@@ -749,9 +801,83 @@
     .header__menu {
         min-width: 208px;
     }
+
+
+    .reviews__title {
+        margin-left: 0;
+        font-size: 19px;
+        line-height: 23px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+   
+
+    .reviews__items__text-title {
+        line-height: 13px;
+        margin-bottom: 11px;
+        font-size: 13px;
+    }
+    .reviews__items-card {
+        margin: 0;
+        padding: 20px 20px 30px;
+        
+    }
+    .reviews__items{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .reviews__items__text-par {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .reviews__items__text {
+        height: 100%;
+    }
 }
 
 @media (max-width: 280px){
+
+    .slider__item {
+        max-width: 247px;
+    }
+
+    .slider__item__card-link-wb {
+        color: var(--color-white);
+        background: purple;
+        border-radius: 8px;
+        text-decoration: none;
+        padding: 8px 7px;
+        margin-right: 9px;
+    }
+
+    .slider__item__card-link-ozon {
+        color: var(--color-white);
+        background: blue;
+        border-radius: 8px;
+        text-decoration: none;
+        padding: 9px 27px;
+    }
+
+    .slider .slick-dots {
+        
+        margin-top: 3px;
+        padding: 0;
+    }
+
+    .slider .slick-dots button {
+        font-size: 0;
+        width: 25px;
+        height: 11px;
+        background: rgba(255, 255, 255, 0.44);
+        border: none;
+        border-radius: 15px;
+        margin-right: 7px;
+    }
+
+
     .header__title {
         font-size: 41px;
         line-height: 33px;
@@ -787,39 +913,6 @@
         margin-bottom: 25px;
     }
 
-    .reviews__title {
-        margin-left: 0;
-        font-size: 19px;
-        line-height: 23px;
-        text-align: left;
-        margin-bottom: 25px;
-    }
-
-   
-
-    .reviews__items__text-title {
-        line-height: 13px;
-        margin-bottom: 11px;
-        font-size: 13px;
-    }
-    .reviews__items-card {
-        margin: 0;
-        padding: 20px 20px 30px;
-        
-    }
-    .reviews__items{
-        width: 200px;
-        margin-bottom: 20px;
-    }
-
-    .reviews__items__text-par {
-        font-size: 9px;
-        line-height: 12px;
-    }
-
-    .reviews__items__text {
-        height: 100%;
-    }
 
     .swiper__title {
         margin-left: 0;
@@ -848,6 +941,14 @@
     }
 
     .data__main__form-input {
+        font-size: 13px;
+        line-height: 12px;
+        padding: 17px 12px;
+        margin-bottom: 18px;
+    }
+
+    .data__main__form-input-tel
+    {
         font-size: 13px;
         line-height: 12px;
         padding: 17px 12px;
